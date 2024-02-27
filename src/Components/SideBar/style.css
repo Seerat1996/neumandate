@@ -1,0 +1,89 @@
+* {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  position: relative;
+}
+main {
+  width: 100%;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  color: black;
+  transition: width 0.3s ease;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 2px 0px 10px 0px rgba(199, 208, 214, 4);
+  padding: 1rem;
+  z-index: 1000;
+}
+.topSection {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 20px 15px;
+}
+.topSection h1 {
+  font-size: 1.8rem;
+}
+.logo {
+  cursor: pointer;
+}
+
+.middleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 38rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  color: black;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+.link:hover {
+  transition: all 0.5s;
+}
+.iconText {
+  border-radius: 1rem;
+  margin-left: 1rem;
+}
+.iconText img {
+  position: static;
+  width: 4.5rem;
+}
+.iconText:hover {
+  background-color: #e1eaff;
+  color: #2d52a5;
+}
+.active {
+  background-color: #e1eaff;
+  color: #2d52a5;
+}
+
+.linkText {
+  font-size: 1.3rem;
+  font-weight: 400;
+}

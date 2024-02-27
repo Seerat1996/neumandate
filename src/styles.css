@@ -1,0 +1,30 @@
+html,
+body,
+#root,
+.app .content {
+  width: 1440px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 75%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #cac3c3;
+}
